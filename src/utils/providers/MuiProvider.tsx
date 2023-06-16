@@ -4,7 +4,9 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import { createContext, useMemo, useCallback } from "react";
 
 export const MUIContext = createContext({
-  toggleColorMode: () => {},
+  toggleColorMode: () => {
+    /* just for eslint */
+  },
 });
 
 export default function MuiProvider({ children }: { children: React.ReactNode }) {

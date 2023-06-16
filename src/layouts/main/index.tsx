@@ -11,7 +11,7 @@ const Main = () => {
       <Header />
       <div className="flex flex-row justify-start w-full mb-1">
         <Sidebar />
-        <Paper sx={{ bgcolor: "background.default" }} className="w-[calc(100vw-50px)] h-[calc(100vh-50px)] overflow-y-auto overflow-x-clip">
+        <Paper sx={{ bgcolor: "background.default" }} className="w-full h-[calc(100vh-52px)] overflow-y-auto overflow-x-clip">
           <Suspense fallback={<>...Loading</>}>
             <Outlet />
           </Suspense>

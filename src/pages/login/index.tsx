@@ -1,6 +1,4 @@
-export type LoginProps = {};
-
-const Login = (props: LoginProps) => {
+const Login = () => {
   return <div>Login</div>;
 };
 export default Login;
